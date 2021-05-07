@@ -4,7 +4,7 @@
         <shape
             android:innerRadiusRatio="2.5"
             android:shape="ring"
-            android:thickness="5dp"
+            android:thickness="@dimen/progress_bar_width"
             android:useLevel="false">
             <solid android:color="?attr/progress_bar_color" />
         </shape>
@@ -17,7 +17,7 @@
             <shape
                 android:innerRadiusRatio="2.5"
                 android:shape="ring"
-                android:thickness="5dp"
+                android:thickness="@dimen/progress_bar_width"
                 android:useLevel="true">
                 <solid android:color="?attr/text_color" />
             </shape>

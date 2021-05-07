@@ -3,10 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/background_color"
     android:gravity="center"
+    android:keepScreenOn="true"
     tools:context=".MainActivity">
 
     <RelativeLayout
+        android:id="@+id/hour_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
@@ -21,7 +24,6 @@
             tools:progress="00" />
 
         <LinearLayout
-            android:id="@+id/hour_layout"
             android:layout_width="@dimen/base_height"
             android:layout_height="@dimen/base_height"
             android:layout_centerInParent="true"
@@ -96,6 +98,7 @@
     </RelativeLayout>
 
     <RelativeLayout
+        android:id="@+id/second_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
