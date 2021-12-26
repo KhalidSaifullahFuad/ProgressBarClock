@@ -21,7 +21,7 @@
             android:layout_centerInParent="true"
             android:indeterminateOnly="false"
             android:progressDrawable="@drawable/circular_progress_bar"
-            tools:progress="00" />
+            tools:progress="0" />
 
         <LinearLayout
             android:layout_width="@dimen/base_height"

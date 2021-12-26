@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     private int tickSound;
 
-    private boolean is12HourClock = true, isSoundOn = true;
+    private boolean is12HourClock = true, isSoundOn = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

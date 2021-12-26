@@ -6,7 +6,7 @@
             android:shape="ring"
             android:thickness="@dimen/progress_bar_width"
             android:useLevel="false">
-            <solid android:color="?attr/progress_bar_color" />
+            <solid android:color="?attr/progress_bar_bg_color" />
         </shape>
     </item>
 
@@ -15,12 +15,36 @@
             android:fromDegrees="270"
             android:toDegrees="270">
             <shape
-                android:innerRadiusRatio="2.5"
+                android:innerRadiusRatio="2.6"
                 android:shape="ring"
-                android:thickness="@dimen/progress_bar_width"
+                android:thickness="@dimen/progress_bar_bg_width"
                 android:useLevel="true">
-                <solid android:color="?attr/text_color" />
+                <solid android:color="?attr/progress_bar_color" />
+                <corners android:radius="100dp"/>
             </shape>
+
         </rotate>
     </item>
+        <item android:bottom="94dp">
+            <shape
+                android:innerRadiusRatio="1000"
+                android:shape="ring"
+                android:thickness="@dimen/ball_width"
+                android:useLevel="false">
+                <solid android:color="?attr/progress_bar_color" />
+            </shape>
+        </item>
+        <item>
+            <rotate>
+                <inset android:insetBottom="94dp">
+                    <shape
+                        android:innerRadiusRatio="1000"
+                        android:shape="ring"
+                        android:thickness="@dimen/ball_width"
+                        android:useLevel="false">
+                        <solid android:color="?attr/progress_bar_color" />
+                    </shape>
+                </inset>
+            </rotate>
+        </item>
 </layer-list>
