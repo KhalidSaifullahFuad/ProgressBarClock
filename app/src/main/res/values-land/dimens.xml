@@ -5,5 +5,7 @@
     <dimen name="time_text_size">65sp</dimen>
     <dimen name="margin_top">-12dp</dimen>
     <dimen name="margin_bottom">2dp</dimen>
+<!--    <dimen name="progress_bar_width">70dp</dimen>-->
     <dimen name="progress_bar_width">8dp</dimen>
+    <dimen name="progress_bar_bg_width">14dp</dimen>
 </resources>

@@ -3,4 +3,5 @@
     <attr name="background_color" format="reference|color"/>
     <attr name="text_color" format="reference|color"/>
     <attr name="progress_bar_color" format="reference|color"/>
+    <attr name="progress_bar_bg_color" format="reference|color"/>
 </resources>

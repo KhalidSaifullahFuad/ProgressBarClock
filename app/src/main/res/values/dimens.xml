@@ -6,4 +6,6 @@
     <dimen name="margin_top">-5dp</dimen>
     <dimen name="margin_bottom">2dp</dimen>
     <dimen name="progress_bar_width">5dp</dimen>
+    <dimen name="progress_bar_bg_width">9dp</dimen>
+    <dimen name="ball_width">4.5dp</dimen>
 </resources>
