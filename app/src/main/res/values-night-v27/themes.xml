@@ -23,6 +23,7 @@
 
         <item name="background_color">@android:color/black</item>
         <item name="text_color">@android:color/white</item>
-        <item name="progress_bar_color">#898989</item>
+        <item name="progress_bar_color">@android:color/white</item>
+        <item name="progress_bar_bg_color">#898989</item>
     </style>
 </resources>
